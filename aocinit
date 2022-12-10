@@ -1,10 +1,11 @@
 #!/bin/bash
-cd /Users/andtsa/PycharmProjects/weekgolf/AoC || exit
+cd /Users/andtsa/PycharmProjects/AoC || exit
 x=$(ls -l | grep -c ^d)
+# x=$((x+1))
 echo initialising day $x
 mkdir day$x
 cd day$x
-touch day${x}.py
 touch day${x}.txt
 touch day${x}test.txt
+touch  day${x}.py
 echo ready!
