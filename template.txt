@@ -1,0 +1,15 @@
+import math
+import time
+from aoc import *
+if __name__ == "__main__" or 1:
+    mode = 0
+    day = 15
+
+lines, t0 = init(day, mode)
+
+x = 0
+y = []
+s = set()
+
+for line in lines:
+    print(x)
