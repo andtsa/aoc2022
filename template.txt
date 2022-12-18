@@ -1,6 +1,7 @@
 import math
 import time
 from aoc import *
+from collections import defaultdict, deque
 if __name__ == "__main__" or 1:
     mode = 0
     day = 15
